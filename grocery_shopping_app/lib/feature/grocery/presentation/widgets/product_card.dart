@@ -63,7 +63,7 @@ class ProductCardWidget extends StatelessWidget {
                   Row(
                     children: [
                        CustomTextWidget(
-                    text: '\$ ${groceryEntity.discount.toString()}',
+                    text: '\$${groceryEntity.discount.toString()}',
                     color: const Color(0xFFAAAAAA),
                     weight: FontWeight.w500,
                     family: 'Sora',
@@ -73,7 +73,7 @@ class ProductCardWidget extends StatelessWidget {
                   SizedBox(width: 5),
 
                    CustomTextWidget(
-                    text: '\$ ${groceryEntity.price.toString()}',
+                    text: '\$${groceryEntity.price.toString()}',
                     color: Colors.red,
                     weight: FontWeight.w500,
                     family: 'Sora',
